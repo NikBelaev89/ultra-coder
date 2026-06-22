@@ -77,7 +77,23 @@ The AI checks a 10-item internal checklist. Only when every item is verified doe
 
 ---
 
-## Installation
+## Installation — One Command, Zero Setup
+
+### Claude Code — macOS / Linux
+```bash
+curl -sSL https://raw.githubusercontent.com/NikBelaev89/ultra-coder/master/install.sh | bash
+```
+
+### Claude Code — Windows (PowerShell)
+```powershell
+irm https://raw.githubusercontent.com/NikBelaev89/ultra-coder/master/install.ps1 | iex
+```
+
+That's it. The script downloads the skill and places it in the right location automatically. Open Claude Code in any project and type `/ultra-code` — it works immediately, no restart needed.
+
+---
+
+## Other Platforms
 
 ### ChatGPT (GPT-4, GPT-4o, GPT-o1)
 1. Go to [chatgpt.com](https://chatgpt.com)
@@ -93,28 +109,17 @@ The AI checks a 10-item internal checklist. Only when every item is verified doe
 4. Paste the full contents of `ULTRA-CODER-UNIVERSAL.md`
 5. Save — it applies to every conversation in this project
 
-### Claude Code (CLI)
-```bash
-# macOS / Linux
-cp ULTRA-CODER-UNIVERSAL.md ~/.claude/commands/ultra-code.md
-
-# Windows
-copy ULTRA-CODER-UNIVERSAL.md %USERPROFILE%\.claude\commands\ultra-code.md
-```
-Then use `/ultra-code` in any project.
-
 ### Cursor IDE
-Create a `.cursorrules` file at the root of your project:
 ```bash
-cp ULTRA-CODER-UNIVERSAL.md .cursorrules
+curl -sSL https://raw.githubusercontent.com/NikBelaev89/ultra-coder/master/ULTRA-CODER-UNIVERSAL.md -o .cursorrules
 ```
-Cursor reads it automatically for every AI interaction in that project.
+Run this at the root of your project. Cursor reads `.cursorrules` automatically.
 
 ### Windsurf IDE
-Create a `.windsurfrules` file at the root of your project:
 ```bash
-cp ULTRA-CODER-UNIVERSAL.md .windsurfrules
+curl -sSL https://raw.githubusercontent.com/NikBelaev89/ultra-coder/master/ULTRA-CODER-UNIVERSAL.md -o .windsurfrules
 ```
+Run this at the root of your project. Windsurf reads `.windsurfrules` automatically.
 
 ### Google Gemini
 Paste the contents of `ULTRA-CODER-UNIVERSAL.md` as the first message in your conversation, preceded by:
