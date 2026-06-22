@@ -123,3 +123,19 @@ The skill is written in English because LLMs across all providers produce more a
 ## License
 
 MIT — use it, modify it, share it.
+
+---
+
+## Support the Project
+
+If ULTRA-CODER saved you time or helped you ship better code, I'd appreciate your support. Any amount is welcome.
+
+| Network | Address |
+|---------|---------|
+| **BTC** | `17jnw2qSfG8FpymS5zEmyhijmxEav6YQGE` |
+| **BCH** | `qzgz2srwggg92xfn986lpyguzuemtjeg7yv92ctccy` |
+| **USDT (TRC-20)** | `TN7RJNqEgCMwd25phGuns8SAoSvcwdwmy6` |
+| **SOL** | `FzFCZMQNpAbxXTKBTh9QS2Wv3oDHFddBDfvhXn1vs3T3` |
+| **BNB (BEP-20)** | `0x3253AE7b10850146460C0314A3f2705779B977c5` |
+
+Thank you — it means a lot and keeps the project going. 🙏
